@@ -89,25 +89,12 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /* Border radiuses */
+  --br-lg: 18px;
+  --br-23xl: 42px;
+  --br-5xs: 8px;
+  --br-81xl: 100px;
+  --br-xs: 12px;
+ 
 
 }
