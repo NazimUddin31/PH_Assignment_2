@@ -64,6 +64,29 @@ body {
 
 
 
+  /* Paddings */
+  --padding-47xl: 4.125rem;
+  --padding-3xl: 1.375rem;
+  --padding-16xl: 2.187rem;
+  --padding-xl: 1.25rem;
+  --padding-4xl: 1.437rem;
+  --padding-30xl: 3.062rem;
+  --padding-15xl: 2.125rem;
+  --padding-base: 1rem;
+  --padding-xs: 0.75rem;
+  --padding-smi: 0.812rem;
+  --padding-10xs: 0.187rem;
+  --padding-11xs: 0.125rem;
+  --padding-mini: 0.937rem;
+  --padding-lg: 1.125rem;
+  --padding-9xs: 0.25rem;
+  --padding-11xl: 1.875rem;
+  --padding-6xl: 1.562rem;
+  --padding-8xl: 1.687rem;
+  --padding-5xl: 1.5rem;
+  --padding-5xs: 0.5rem;
+  --padding-sm: 0.875rem;
+
 
 
 
