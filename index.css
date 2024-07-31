@@ -1,0 +1,398 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+ 
+
+/* Navber Section */
+
+ 
+ 
+
+.fitness,
+.home {
+  position: relative;
+}
+.fitness {
+  margin: 0;
+  font-size: inherit;
+  line-height: 120%;
+  font-style: italic;
+  font-weight: 800;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.home {
+  text-decoration: none;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--body-text);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 3.25rem;
+}
+.navigation-links {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-xl);
+  background-color: var(--color-tomato-200);
+  border-radius: 46px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button:hover,
+.navigation-links:hover {
+  background-color: var(--color-tomato-100);
+}
+.about,
+.contact,
+.service {
+  position: relative;
+  line-height: 1.375rem;
+  display: inline-block;
+  min-width: 4rem;
+}
+.about,
+.contact {
+  min-width: 4.25rem;
+}
+.about {
+  min-width: 3.25rem;
+}
+.fitness-parent,
+.navigation,
+.navigation-links1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navigation-links1 {
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.fitness-parent,
+.navigation {
+  max-width: 100%;
+}
+.navigation {
+  width: 29.063rem;
+  border-radius: 39px;
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-10xs);
+  gap: 2.937rem;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.fitness-parent {
+  width: 66.25rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  justify-content: space-between;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: 2.25rem;
+  color: var(--color-tomato-200);
+  font-family: var(--body-text);
+}
+
+span{
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.get-body-in {
+  font-weight: 900;
+}
+ 
+.stay-healthy {
+  font-weight: 900;
+}
+.get-body-in-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-family: inherit;
+}
+.a-huge-selection {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-size);
+  letter-spacing: 0.5px;
+  line-height: 1.5rem;
+  color: var(--color-gray-300);
+}
+.join-club-now {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 1.375rem;
+  font-weight: 600;
+  font-family: var(--body-text);
+  color: var(--color-white);
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) 2.875rem;
+  background-color: var(--color-tomato-200);
+  border-radius: var(--br-23xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+.download-app {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 1.375rem;
+  font-weight: 600;
+  font-family: var(--body-text);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 8rem;
+}
+.button1 {
+  cursor: pointer;
+  border: 1px solid var(--color-white);
+  padding: var(--padding-sm) 2.937rem;
+  background-color: transparent;
+  border-radius: var(--br-23xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button1:hover {
+  background-color: rgba(230, 230, 230, 0.09);
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+.get-body-in-shape-stay-healt-parent,
+.hero-buttons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hero-buttons {
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.get-body-in-shape-stay-healt-parent {
+  width: 32.5rem;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+.frame-child {
+  height: 6rem;
+  width: 12.875rem;
+  position: relative;
+  backdrop-filter: blur(20px);
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: none;
+}
+.workout-image-child {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-tomato-200);
+  z-index: 2;
+}
+.workout-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.video-placeholder,
+.video-tutorial {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  z-index: 2;
+}
+.video-placeholder {
+  letter-spacing: 0.3px;
+  font-weight: 900;
+  min-width: 4.25rem;
+}
+.video-tutorial {
+  font-size: var(--body-text-size);
+  letter-spacing: 0.5px;
+  color: var(--text-2);
+  min-width: 6.75rem;
+}
+.video-placeholder-parent {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.frame-group,
+.rectangle-parent,
+.video-placeholder-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent {
+  margin: 0 !important;
+  position: absolute;
+  right: -11.312rem;
+  bottom: -0.812rem;
+  backdrop-filter: blur(20px);
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-gray-400);
+  flex-direction: row;
+  padding: var(--padding-lg) var(--padding-3xl);
+  gap: var(--gap-xs);
+  z-index: 1;
+  font-size: var(--font-size-5xl);
+  color: var(--text-1);
+}
+.frame-group {
+  flex: 1;
+  flex-direction: column;
+  position: relative;
+  gap: 4.437rem;
+  max-width: 100%;
+}
+.frame-item {
+  width: 1.244rem;
+  height: 0.913rem;
+  position: relative;
+  object-fit: contain;
+}
+.hero-content,
+.hero-content-inner {
+  display: flex;
+  justify-content: flex-start;
+}
+.hero-content-inner {
+  height: 12.775rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.hero-content {
+  width: 38.938rem;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 0.256rem;
+  max-width: 100%;
+}
+.images-2-icon {
+  height: 36.25rem;
+  width: 21.813rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -22.312rem;
+  left: -14.375rem;
+  object-fit: cover;
+}
+.frame-inner {
+  width: 12.063rem;
+  height: 6.125rem;
+  position: relative;
+  backdrop-filter: blur(20px);
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: none;
+}
+.free-workout-videos,
+.image-placeholder {
+  position: relative;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+.image-placeholder {
+  line-height: 2.5rem;
+  font-weight: 900;
+  display: inline-block;
+  min-width: 7.313rem;
+}
+.free-workout-videos {
+  font-size: 0.813rem;
+  line-height: 1.25rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+.rectangle-group {
+  backdrop-filter: blur(20px);
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-400);
+  border: 1px solid var(--color-gray-400);
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-xl) var(--padding-sm)
+    var(--padding-5xl);
+  gap: 0.312rem;
+  z-index: 1;
+}
+.image-content,
+.image-content-wrapper,
+.rectangle-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-content {
+  flex-direction: row;
+  position: relative;
+}
+.image-content-wrapper {
+  flex-direction: column;
+  padding: 3.812rem 0 0;
+  font-size: 2.5rem;
+}
+.hero-content-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.desktop-1-inner,
+.frame-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-parent {
+  flex: 1;
+  background: linear-gradient(180deg, #111, rgba(119, 119, 119, 0));
+  flex-direction: column;
+  padding: 3.562rem 8.312rem 4.75rem 11.875rem;
+  gap: 6rem;
+}
+.desktop-1-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0.437rem var(--padding-xs) 0;
+  text-align: left;
+  font-size: 4.875rem;
+  color: var(--color-white);
+  font-family: var(--body-text);
+}
+
+

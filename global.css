@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+ 
+:root {
+  /* fonts */
+  --body-text: Inter;
+  --font-miama: Playwrite BE VLG;
+}
