@@ -1058,6 +1058,561 @@ span{
 
 
 
+/*  BMI Calculator Chart */
+
+.bmi-calculator-chart {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 2.125rem;
+  font-weight: 900;
+  font-family: inherit;
+}
+.chart-elements-child,
+.weight-status-child {
+  align-self: stretch;
+  position: relative;
+  max-height: 100%;
+}
+.chart-elements-child {
+  width: 0.063rem;
+  min-height: 13.5rem;
+}
+.weight-status-child {
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  margin-top: -0.063rem;
+  z-index: 1;
+}
+.bmi,
+.weight-status1 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 1.875rem;
+}
+.weight-status1 {
+  min-width: 6.75rem;
+}
+.weight-label-child {
+  height: 13.5rem;
+  width: 0.063rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 8.125rem;
+  bottom: -11.375rem;
+}
+.weight-label,
+.weight-label-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.weight-label {
+  flex: 1;
+  justify-content: space-between;
+  position: relative;
+  gap: var(--gap-xl);
+}
+.weight-label-wrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0.312rem var(--padding-lg);
+  font-size: var(--body-text-size);
+  color: var(--color-white);
+}
+.vector-icon {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -0.063rem;
+  z-index: 1;
+}
+.vector-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+}
+.below-185,
+.underweight {
+  position: relative;
+  line-height: 1.063rem;
+  display: inline-block;
+  min-width: 4.438rem;
+}
+.underweight {
+  min-width: 5.375rem;
+}
+.underweight-label,
+.underweight-label-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.underweight-label {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.underweight-label-wrapper {
+  width: 17.938rem;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) var(--padding-9xs);
+  box-sizing: border-box;
+}
+.frame-child1 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -0.063rem;
+  z-index: 1;
+}
+.div,
+.healthy {
+  position: relative;
+  line-height: 1.063rem;
+  display: inline-block;
+  min-width: 4.438rem;
+}
+.healthy {
+  min-width: 3.188rem;
+}
+.healthy-label,
+.healthy-label-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.healthy-label {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.healthy-label-wrapper {
+  width: 15.75rem;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.healthy-weight-separator {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -0.063rem;
+  z-index: 1;
+}
+.div1,
+.overweight {
+  position: relative;
+  line-height: 1.063rem;
+  display: inline-block;
+  min-width: 4.563rem;
+}
+.overweight {
+  min-width: 4.813rem;
+}
+.overweight-label {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.healthy-weight-indicator,
+.overweight-label-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.overweight-label-wrapper {
+  width: 17.375rem;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.healthy-weight-indicator {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.overweight-separator-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -0.063rem;
+  z-index: 1;
+}
+.frame-parent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.906rem;
+}
+.and-above,
+.obese {
+  position: relative;
+  line-height: 1.063rem;
+  display: inline-block;
+  min-width: 7.188rem;
+}
+.obese {
+  min-width: 2.688rem;
+}
+.obese-label {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-parent2,
+.frame-wrapper,
+.obese-label-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.obese-label-wrapper {
+  width: 15.125rem;
+  flex-direction: row;
+  padding: 0 1.062rem;
+  box-sizing: border-box;
+}
+.frame-parent2,
+.frame-wrapper {
+  flex-direction: column;
+}
+.frame-parent2 {
+  align-self: stretch;
+  gap: 0.562rem;
+}
+.frame-wrapper {
+  flex: 1;
+  padding: var(--padding-mini) 0 0;
+}
+.b-m-i-last-separator {
+  height: 13.5rem;
+  width: 0.063rem;
+  position: relative;
+}
+.frame-parent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.b-m-i-categories-divider {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  margin-top: -0.063rem;
+  z-index: 1;
+}
+.status-labels,
+.weight-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.status-labels {
+  align-self: stretch;
+}
+.weight-status {
+  flex: 1;
+  margin-left: -0.063rem;
+}
+.chart-elements {
+  flex: 1;
+  flex-direction: row;
+}
+
+.bmi-table-grid{
+ display: flex;
+}
+
+
+/* BMI Chart part Last */
+ 
+
+table{
+ height: 200px;
+  width: 300px;
+  text-align: center;
+}
+ 
+.b-m-i-chart-content,
+.chart,
+.chart-container,
+.chart-elements {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chart-container {
+  width: 19.688rem;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-300);
+}
+.b-m-i-chart-content,
+.chart {
+  flex-direction: column;
+}
+.chart {
+  align-self: stretch;
+  gap: 3.25rem;
+}
+.b-m-i-chart-content {
+  width: 27.688rem;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 27.688rem;
+  max-width: 100%;
+}
+.calculate-your-bmi,
+.we-believe-fitness8 {
+  position: relative;
+  font-family: var(--body-text);
+  text-align: left;
+}
+.calculate-your-bmi {
+  margin: 0;
+  width: 27.688rem;
+  font-size: var(--font-size-9xl);
+  line-height: 2.125rem;
+  font-weight: 900;
+  color: var(--color-white);
+  display: inline-block;
+  max-width: 100%;
+}
+.we-believe-fitness8 {
+  align-self: stretch;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.3px;
+  line-height: 1.5rem;
+  color: var(--color-gray-300);
+}
+.b-m-i-calculator-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.b-m-i-calculator-inputs,
+.button3,
+.button4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.button3,
+.button4 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gray-400);
+  height: 3rem;
+  flex: 1;
+  border-radius: var(--br-5xs);
+  align-items: center;
+  padding: var(--padding-smi) var(--padding-xl);
+  box-sizing: border-box;
+  font-family: var(--body-text);
+  font-size: var(--body-text-size);
+  color: var(--color-gray-200);
+  min-width: 11.438rem;
+}
+.b-m-i-calculator-inputs {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.button5,
+.sex {
+  font-size: var(--body-text-size);
+  font-family: var(--body-text);
+  color: var(--color-gray-200);
+}
+.button5 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gray-400);
+  height: 3rem;
+  flex: 0.1258;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-xl);
+  box-sizing: border-box;
+  min-width: 11.438rem;
+}
+.sex {
+  position: relative;
+  line-height: 1.375rem;
+  text-align: left;
+  display: inline-block;
+  min-width: 1.75rem;
+}
+.chevron-down-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.button6 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  min-width: 11.438rem;
+  gap: var(--gap-xl);
+}
+.b-m-i-calculator-inputs1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.select-an-activity {
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 1.375rem;
+  font-family: var(--body-text);
+  color: var(--color-gray-200);
+  text-align: left;
+}
+.chevron-down-icon1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.button7 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-gray-400);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.b-m-i-calculator-form,
+.b-m-i-calculator-inputs2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.b-m-i-calculator-form {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.calculate {
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 1.375rem;
+  font-weight: 600;
+  font-family: var(--body-text);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 5.188rem;
+}
+.button8 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) 4.375rem;
+  background-color: var(--color-tomato-200);
+  border-radius: var(--br-23xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.b-m-i-calculator-content-parent {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+  min-width: 23.438rem;
+  max-width: 100%;
+}
+.b-m-i-chart-content-parent {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-30xl) 11.687rem 3.25rem;
+  box-sizing: border-box;
+  gap: var(--gap-25xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white);
+  font-family: var(--body-text);
+}
+
+
+
 
 
 
