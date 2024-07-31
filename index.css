@@ -743,3 +743,339 @@ span{
 }
 
 
+
+
+/* Trainings and Exercises Section */
+
+.trainings-and-exercises {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.625rem;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.we-believe-fitness6 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.3px;
+  line-height: 1.5rem;
+  color: var(--color-gray-300);
+}
+.trainings-and-exercises-parent {
+  width: 41.938rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.image-8-icon {
+  height: 13.625rem;
+  width: 20.188rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -3.562rem;
+  bottom: -1.031rem;
+  object-fit: cover;
+}
+.image-8-parent,
+.lorem-ipsum {
+  flex-shrink: 0;
+  position: relative;
+}
+.lorem-ipsum {
+  width: 11rem;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.image-8-parent {
+  width: 15.625rem;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 9.812rem var(--padding-5xl) 1.718rem;
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.image-6-icon {
+  height: 16rem;
+  width: 33.688rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -2.75rem;
+  right: -1.187rem;
+  object-fit: cover;
+}
+.image-6-parent,
+.lorem-ipsum1 {
+  flex-shrink: 0;
+  position: relative;
+}
+.lorem-ipsum1 {
+  width: 11rem;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.image-6-parent {
+  height: 12.625rem;
+  width: 32.5rem;
+  background-color: #ddd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xl) 1.937rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image-11-icon {
+  height: 13.375rem;
+  width: 24.25rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -3.5rem;
+  bottom: -0.406rem;
+  object-fit: cover;
+}
+.leg-press-works {
+  width: 11rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frame-container,
+.image-11-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image-11-parent {
+  flex: 1;
+  background-color: #ccc;
+  overflow: hidden;
+  padding: 9.125rem var(--padding-8xl) 1.343rem;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 11.75rem;
+}
+.frame-container {
+  align-self: stretch;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  max-width: 100%;
+}
+.image-7-icon {
+  height: 15rem;
+  width: 27.188rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -0.562rem;
+  bottom: -1.562rem;
+  object-fit: cover;
+}
+.leg-press-works1 {
+  width: 11rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.image-7-parent {
+  flex: 1;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1.593rem 0 var(--padding-6xl);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 17.25rem;
+  min-height: 12.625rem;
+  max-width: 100%;
+}
+.image-10-icon {
+  width: 25.5rem;
+  height: 13.688rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -0.625rem;
+  left: calc(50% - 204px);
+  object-fit: cover;
+}
+.leg-press-works2 {
+  width: 11rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.image-10-parent {
+  width: 18rem;
+  background-color: #bbb;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 9.031rem var(--padding-xl) var(--padding-4xl) var(--padding-15xl);
+  box-sizing: border-box;
+  position: relative;
+}
+.image-9-icon {
+  height: 15.625rem;
+  width: 23.5rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -1.531rem;
+  left: -0.937rem;
+  object-fit: cover;
+}
+.leg-press-works3 {
+  width: 11rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.image-9-parent {
+  width: 21.688rem;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8.906rem 2.375rem var(--padding-6xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.frame-div {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.exercises,
+.exercises-wrapper,
+.frame-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.exercises {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+}
+.exercises-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-11xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+}
+.bmi-calculator {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 3.625rem;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.we-believe-fitness7 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.3px;
+  line-height: 1.5rem;
+  color: var(--color-gray-300);
+}
+.calculator-content {
+  width: 41.938rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.offerings-header {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.offerings-header,
+.trainings-content,
+.trainings-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.trainings-content {
+  width: 66.25rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-39xl);
+}
+.trainings-content-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-white);
+  font-family: var(--body-text);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

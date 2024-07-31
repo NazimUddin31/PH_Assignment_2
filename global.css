@@ -30,6 +30,23 @@ body {
 
 
 
+   /* Colors */
+   --color-black: #000;
+   --color-gray-100: #222;
+   --color-gray-200: rgba(255, 255, 255, 0.6);
+   --color-gray-300: rgba(255, 255, 255, 0.5);
+   --color-gray-400: rgba(255, 255, 255, 0.1);
+   --color-white: #fff;
+   --color-tomato-100: #ff6e57;
+   --color-tomato-200: #e6533c;
+   --color-darkslategray: rgba(48, 48, 48, 0.54);
+   --text-1: #fafaf9;
+   --text-2: rgba(239, 237, 232, 0.65);
+
+
+
+
+
 
 
 
