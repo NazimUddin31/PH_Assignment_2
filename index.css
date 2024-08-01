@@ -100,7 +100,9 @@
   color: var(--color-tomato-200);
   font-family: var(--body-text);
 }
-
+.all-right-reserved{
+  font-family: var(--body-text);
+}
 span{
   font-family: "Playwrite BE VLG", cursive;
   font-optical-sizing: auto;
@@ -1226,6 +1228,7 @@ span{
 .overweight {
   min-width: 4.813rem;
 }
+ 
 .overweight-label {
   flex: 1;
   display: flex;
@@ -2410,8 +2413,11 @@ transition: 0.5s ;
   color: brown;
 }
 
-
-
+.image-8-parent img,
+.image-8-icon{
+  background-color: #2c0524;
+     
+}
 
 
 
@@ -2729,5 +2735,427 @@ flex-direction: column;
 
 
 
+/* Media Query for Medium Device */
 
 
+@media screen and (min-width:576px) and (max-width:992px) {
+
+
+ .hero-content{
+  margin-left: -10rem;
+   
+ }
+ 
+.hero-content-parent{
+  margin-top: 3rem;
+  margin-left: 15rem;
+}
+.get-body-in,
+.shape,
+ .stay-healthy{
+  font-size: 5rem;
+  line-height: normal;
+}
+
+
+.fitness{
+  margin-left: 2rem;
+  font-size: 4rem;
+}
+ 
+  
+  .circle-playButton{
+    display: block;
+    color:#fafafa;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+ 
+ 
+
+.break{
+  display: none;
+}
+  .playButton{
+    display: none;
+  }
+ .rectangle-icon{
+  margin-top: -40px;
+ }
+ 
+
+.frame-div,
+.frame-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ 
+}
+
+ 
+
+.image-8-icon,
+.image-8-parent{
+  background-color: rgb(131, 184, 184);
+}
+
+.image-9-icon,
+.image-9-parent{
+  background-color: rgb(76, 30, 94);
+}
+
+.image-10-icon,
+.image-10-parent{
+  background-color: rgb(94, 9, 61);
+}
+
+.image-11-icon,
+.image-11-parent{
+  background-color: rgb(20, 161, 84);
+}
+.button,
+.button1{
+  width: 180px;
+}
+  
+  .hero-content-parent{
+
+position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+
+.image-content-wrapper{
+  margin-left: 250px;
+  margin-top: 90px;
+   
+}
+.button-parent-one{
+  width: 150px;
+ margin-top: 80px;
+ 
+ height: auto;
+  position: sticky;
+   
+}
+ .rectangle-group{
+  width: 140px;
+  height: 55px;
+  margin-top: -160px;
+  margin-left: -40px;
+ }
+.button-parent-two{
+ width: 150px;
+ margin-top: 80px;
+ margin-left: -390px;
+ height: auto;
+  position: sticky;
+ 
+}
+
+ .rectangle-parent{
+  width: 140px;
+ }
+
+
+
+
+
+
+  .bar-icon{
+    display: none;
+    color: #bbb;
+  }
+  .navigation{
+    display: flex;
+  }
+  
+  header{
+    justify-content: start;
+    align-content: start;
+  }
+  
+ 
+  
+ .image-8-icon{
+  width: 100%;
+ }
+ 
+ 
+ 
+.card-container{
+
+  margin-top: 40%;
+}
+.change-your-habits-parent h1,
+.change-your-habits{
+  font-size: 4rem;
+  gap: 2rem;
+}
+.we-believe-fitness{
+  font-size:1.5rem ;
+  margin-top: 1rem;
+}
+
+.a-huge-selection{
+  font-size: 1.5rem;
+  line-height: normal;
+}
+
+ 
+ 
+ 
+.mile-content-parent{
+  display: inline;
+  gap: 50px;
+}
+
+
+.frame-parent2{
+  width: 250px;
+  margin-left: 65px;
+   }
+   .bmi-calculator-chart{
+    margin-left: 65px;
+  }
+  
+  .b-m-i-calculator-content{
+    margin-left: 65px;
+   }
+  .button8{
+  
+  
+    margin-left: 65px;
+  }
+
+.b-m-i-calculator-inputs1,
+.b-m-i-calculator-inputs{
+  width: 30px;
+  margin-left: 65px;
+}
+ 
+ 
+   
+  .button7{
+display: flex;
+    max-width: 380px;
+  }
+ .bmi-table-grid{
+flex-direction: column;
+ }
+
+.team-member-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  .footer-navigation,
+  .footer-content{
+  flex-direction: column;
+   
+   
+  }
+  
+  
+    .navigation {
+      gap: 1.438rem;
+    }
+    .get-body-in-container {
+      font-size: 2.938rem;
+      line-height: 3.5rem;
+    }
+    .video-placeholder {
+      font-size: var(--font-size-lgi);
+      line-height: 1.188rem;
+    }
+    .frame-group {
+      gap: 1.125rem;
+    }
+    .image-placeholder {
+      font-size: var(--font-size-5xl);
+      line-height: 1.5rem;
+    }
+    .frame-parent {
+      gap: 1.5rem;
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .change-your-habits {
+      font-size: var(--font-size-10xl);
+      line-height: 2.188rem;
+    }
+    .benefits-cards-parent {
+      grid-template-columns:  minmax( 173px, 1fr);
+    }
+    .run-an-extra-container {
+      font-size: var(--font-size-10xl);
+      line-height: 2.188rem;
+    }
+    .mile-title-parent {
+      gap: var(--gap-mid);
+    }
+    .mile-content-parent {
+      padding-top: var(--padding-xl);
+      padding-bottom: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .bmi-calculator,
+    .trainings-and-exercises {
+      font-size: var(--font-size-10xl);
+      line-height: 2.188rem;
+    }
+    .bmi-calculator-chart {
+      font-size: var(--font-size-3xl);
+      line-height: 1.688rem;
+    }
+    .chart {
+      gap: 1.625rem;
+    }
+    .calculate-your-bmi {
+      font-size: var(--font-size-3xl);
+      line-height: 1.688rem;
+    }
+    .button5 {
+      flex: 1;
+    }
+    .b-m-i-chart-content-parent {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .meet-our-team {
+      font-size: var(--font-size-10xl);
+      line-height: 2.188rem;
+    }
+    .cameron-williamson,
+    .cody-fisher,
+    .darrell-steward,
+    .dianne-russell,
+    .jerome-bell,
+    .theresa-webb {
+      font-size: var(--body-text-size);
+      line-height: 1.188rem;
+    }
+    .fitness1 {
+      font-size: 2.625rem;
+      line-height: 3.125rem;
+    }
+    .get-started {
+      font-size: var(--font-size-lgi);
+      line-height: 1.438rem;
+    }
+    .get-started1,
+    .get-started2,
+    .get-started3,
+    .get-started4 {
+      font-size: var(--font-size-lg);
+      line-height: 1.375rem;
+    }
+    .get-started5 {
+      font-size: var(--font-size-lgi);
+      line-height: 1.438rem;
+    }
+    .get-started6,
+    .get-started7,
+    .get-started8,
+    .get-started9 {
+      font-size: var(--font-size-lg);
+      line-height: 1.375rem;
+    }
+    .footer-navigation {
+      flex-wrap: wrap;
+    }
+    .all-right-reserved {
+      font-size: var(--body-text-size);
+      line-height: 1.188rem;
+    }
+    .desktop-1 {
+      gap: var(--gap-3xl);
+    }
+ 
+
+
+
+    .benefits-cards-parent{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+
+.mile-content-parent{
+
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+
+}
+
+ 
+.recicon
+{
+  border-radius: 2px solid red;
+  width: 18rem;
+  height: 15rem;
+}
+
+.rectangle-icon{
+  margin-top: 7rem;
+  margin-left: -10rem;
+ 
+}
+  
+
+.frame-container,
+.frame-div{
+
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.team-member-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+ .footer-navigation{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 6rem;
+  gap: 5rem;
+ }
+
+
+
+.footer-content{
+margin-left: 5rem;
+
+ }
+.get-started-parent h1,
+.get-started-group h1{
+  font-size: 1.5rem;
+}
+
+.get-started-parent h2,
+.get-started-group h2{
+  font-size: 1.5rem;
+}
+
+
+.fitness1{
+font-size: 4rem;
+
+}
+.we-believe-fitness10{
+  font-size: 1.1rem;
+}
+
+ .all-right-reserved{
+  font-family: var(--body-text);
+ }
+
+}
