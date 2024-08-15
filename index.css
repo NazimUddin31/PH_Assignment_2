@@ -2420,6 +2420,55 @@ transition: 0.5s ;
 }
 
 
+/* Lastly Add Unique Part */
+
+
+.UniqueSection{
+  color: #e6e6e6;
+ 
+  width: 100%;
+  
+
+}
+
+.uniquelyTrain{
+  background-image: url(./images/UmiqueImage.png);
+ margin: 1.5%;
+ height:30vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+.uniquelyTrain:hover{
+  color: #810640;
+transform: scale(1.04);
+transition: 0.5s ;
+}
+.buttonUnique{
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) 4.437rem;
+ 
+  border-radius: var(--br-23xl);
+  flex-direction: row;
+  white-space: nowrap;
+ 
+  
+}
+
+ .buttonUnique:hover{
+  transform: scale(0.8);
+  transition: 0.4s ;
+  border-radius: 2px solid tomato;
+  color: #ecaf04;
+ }
+ 
+.div{
+  align-items: center;
+  margin-top: 6px;
+ }
+
 
 
 /* Responsive: Media Query for Small Device:max-576px */
